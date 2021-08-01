@@ -1,0 +1,116 @@
+/* This web app is a part of Data Analytics and Management Internship at BISAG(N), Gandhinagar -->
+@author : Sagar Bapodara */
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.root {
+	padding: 2vw;
+	background-image: linear-gradient(to right bottom, #663399, #552188, #552188, #3f0a74, #46028a);
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-family: poppins;
+	min-height: 100vh;
+}
+
+.heading {
+	text-align: center;
+	font-family: 'Fira Code', monospace;
+	font-size: 3rem;
+	margin-bottom: 60px;
+}
+
+.sub-heading {
+	margin: 20px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+}
+
+.info-description{
+	font-weight: 300;
+	font-size:20px;
+}
+
+.location-container {
+	margin: 40px 0;
+	text-align: center;
+}
+
+.loc-input {
+	border: 3px solid #269fe6;
+	font-size: 1rem;
+	padding: 8px;
+	border-radius: 6px;
+	margin: 10px;
+	width: 270px;
+}
+
+.loc-input:invalid {
+	border: 3px solid #d34545;
+}
+
+.search-btn {
+	padding: 10px 14px;
+	background-color: #FFFF00;
+	border: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	border-radius: 4px;
+	color: #000;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.air-quality, .arr, .air-quality-status {
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.or-type-location{
+	text-align: center;
+	font-weight: 700;
+	font-size: 2.5rem;
+}
+
+#search-city{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.air-info{
+	text-align: center;
+}
+
+.component-names {
+	display: inline-block;
+}
+
+.component-container div {
+	margin: 10px 0;
+}
+
+.component-val {
+	font-size: 1.2rem;
+	margin-left: 20px;
+}
+
+.air-quality-forecast{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.footer-tags{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+footer{
+	margin-top: 40px;
+	text-align: center;
+}
